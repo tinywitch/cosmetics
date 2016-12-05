@@ -2,6 +2,20 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
+Rails.application.config.assets.precompile += %w( bootstrap.css )
+Rails.application.config.assets.precompile += %w( style.css )
+Rails.application.config.assets.precompile += %w( font-awesome.css )
+Rails.application.config.assets.precompile += %w( flexslider.css )
+Rails.application.config.assets.precompile += %w( move-top.js )
+Rails.application.config.assets.precompile += %w( easing.js )
+Rails.application.config.assets.precompile += %w( jquery.flexslider.js )
+Rails.application.config.assets.precompile += %w( jquery.js )
+Rails.application.config.assets.precompile += %w( bootstrap.min.js )
+Rails.application.config.assets.precompile += %w( minicart.min.js )
+
+
+
+
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
